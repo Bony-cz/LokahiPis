@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LokahiPis 2</title>
+<style>
+  body {
+    margin: 0;
+    width: 100%;
+    height: 150vh;
+    background-color: #20e4b9;
+    background-image: linear-gradient(43deg, #078a69 0%, #50e4bf 46%, #00fff2 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+
+  .logo-img {
+    margin-top: 30px;
+    max-width: 10%;
+    height: auto;
+  }
+
+
+  .title-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #131313;
+    margin: 10px;
+    text-align: center;
+  }
+
+
+  .button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+  .boton-elegante {
+    left: 100px;
+    top: -105px;
+    padding: 16px 31px;
+    border: 2px solid #2c2c2c;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  .boton-elegante::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+
+  .boton-elegante:hover::after {
+    transform: scale(4);
+  }
+
+  .boton-elegante:hover {
+    border-color: #666666;
+    background: #292929;
+  }
+
+
+  .image-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .stranka img {
+    top: -100px;
+    max-width: 80%;
+    height: 30%;
+    border-radius: 10px;
+  }
+
+
+  @media(max-width: 768px) {
+    .logo-img {
+      max-width: 20%;
+    }
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .boton-elegante {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+
+    .stranka img {
+      max-width: 90%;
+    }
+  }
+
+  .boton-elegante1 {
+    left: -94px;
+    padding: 15px 30px;
+    border: 2px solid #2c2c2c;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  .boton-elegante1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+
+  .boton-elegante1:hover::after {
+    transform: scale(4);
+  }
+
+  .boton-elegante1:hover {
+    border-color: #666666;
+    background: #292929;
+  }
+
+
+.image-box img {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+  .stranka img {
+    max-width: 80%;
+    height: 10%;
+    border-radius: 10px;
+  }
+
+
+  @media(max-width: 768px) {
+    .logo-img {
+      max-width: 20%;
+    }
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .boton-elegante {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+</style>
+</head>
+<body>
+
+
+<img src="just-logo-1_edited.avif" alt="Logo" class="logo-img" />
+
+
+<div class="title-container">
+  <u class="title">LokahiPis 2</u>
+</div>
+
+
+<div class="button-container">
+  <a href="Mobile 2-2.html">
+    <button class="boton-elegante1"><</button>
+  </a>
+</div>
+
+<div class="button-container">
+  <a href="Mobile 2-4.html">
+    <button class="boton-elegante">></button>
+  </a>
+</div>
+
+
+<div class="images-container">
+  <div class="image-box">
+    <img src="Screenshot 2026-04-16 162133.png" alt="Screenshot 1" />
+  </div>
+  <div class="image-box">
+    <img src="Screenshot 2026-04-16 162240.png" alt="" />
+  </div>
+</div>
+
+</body>
+</html> 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LokahiPis</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    background-color: hsl(51, 100%, 90%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .logo-img {
+    width: 10%;
+    max-width: 100px;
+    height: auto;
+  }
+
+
+  .title {
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+    text-align: center;
+  }
+
+
+  .content {
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #131313;
+    text-align: justify;
+  }
+
+
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+
+  .neu-button, .neu-button2, .neu-button3 {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(163, 241, 255);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+  }
+
+
+  .neu-button {
+    background-image: linear-gradient(43deg, #05d1b6 0%, #16d49b 46%, #00ccff 100%);
+  }
+  .neu-button2 {
+    background-image: linear-gradient(43deg, #ffe600 0%, #d1a820 46%, #a56300 100%);
+  }
+  .neu-button3 {
+    background-image: linear-gradient(43deg, #002aff 0%, #f887f1 46%, #00ccff 100%);
+  }
+
+
+  .neu-button:hover, .neu-button2:hover, .neu-button3:hover {
+    box-shadow: inset 2px 2px 5px #ffffff, inset -2px -2px 5px #5f5f5f,
+                2px 2px 5px #777, -2px -2px 5px #464;
+    transform: translateY(-2px);
+  }
+
+
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .image-box {
+    flex: 1 1 200px;
+    max-width: 300px;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+  @media(max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+    .content {
+      font-size: 1rem;
+    }
+    .neu-button, .neu-button2, .neu-button3 {
+      padding: 15px 30px;
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+
+<img src="just-logo-1_edited.avif" alt="Logo" class="logo-img" />
+
+
+<div class="title">LokahiPis</div>
+
+
+<div class="content">
+  <p>LokahiPis je školní časopis, na kterém se podílí žáci školy Lokahi. V časopise najdete články které informují o dění ve škole a o akcích, kterých se žáci zúčastnili.
+  Dále jsou zde i články o různých tématech, které žáky zajímají. Časopis vychází jednou za půl roku(přibližně) a je k dispozici v 
+  tištěné podobě i online.</p>
+</div>
+
+
+<div class="buttons-container">
+  <a href="Mobile 2-1.html"><button class="neu-button">LokahiPis 2</button></a>
+  <a href="Mobile 3-1.html"><button class="neu-button2">LokahiPis 3</button></a>
+  <a href="Mobile 4-1.html"><button class="neu-button3">LokahiPis 4</button></a>
+</div>
+
+
+</body>
+</html>
